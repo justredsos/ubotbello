@@ -1,3 +1,2 @@
-python
 telethon
 gtts
