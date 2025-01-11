@@ -5,9 +5,10 @@ from telethon import TelegramClient, events
 from gtts import gTTS
 from telethon.tl.types import PeerChannel, PeerChat, PeerUser
 
-ADMIN = None # TUO CHAT ID 5359093145
-API_KEY = 12338779  # api id
-API_HASH = "3b21048bbc24665767d760540dc77c7e"#api hash
+ADMIN = 5193095802
+API_KEY = "21627484"  # API ID
+API_HASH = "45ace3d738494add4dee68a680c1b2cf"  # API HASH
+SESSION_NAME = "userbot.session"  # Nome del file di sessione
 ubot = TelegramClient("ubot", API_KEY, API_HASH)
 ubot.parse_mode = "html"
 
