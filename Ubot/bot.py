@@ -3,9 +3,9 @@ from telethon.tl.functions.account import UpdateProfileRequest
 from telethon import TelegramClient, events
 from telethon.tl.types import PeerChannel, PeerChat, PeerUser, UserStatusOnline, UserStatusOffline
 
-ADMIN = #yourid
-API_KEY = ""  # API ID
-API_HASH = ""  # API HASH
+ADMIN = 5193095802
+API_KEY = "21627484"  # API ID
+API_HASH = "45ace3d738494add4dee68a680c1b2cf"  # API HASH
 SESSION_NAME = "userbot.session"  # Nome del file di sessione
 ubot = TelegramClient("ubot", API_KEY, API_HASH)
 ubot.parse_mode = "html"
@@ -56,7 +56,7 @@ async def RaspaManager(e):
                 last_name="𝓞𝓕𝓕🔴"
             ))
             is_off = True  # Modifica la variabile globale
-    GROUP_CHAT_ID = ""  # Sostituisci con l'ID del tuo gruppo
+    GROUP_CHAT_ID = -4644902555  # Sostituisci con l'ID del tuo gruppo
 
     if e.sender_id == ADMIN:
         if e.text == ".info":
